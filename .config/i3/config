@@ -252,23 +252,29 @@ workspace $ws10 output eDP1
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 -time 0 # increase
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # decrease
 
-# Lock
-bindsym $mod+x exec ~/.config/i3lock/lock
+# Compositor
+exec_always picom -f
+
+# Clipboard manager
+exec --no-startup-id copyq
+
+# Lock Keybind
+bindsym $mod+x exec $HOME/.config/i3lock/lock
+
+# Lock screen after inactivity
+exec xautolock -time 5 -locker $HOME/.config/i3lock/lock
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-# Lock screen after inactivity
-exec_always xautolock -time 5 -locker ~/.config/i3lock/lock
-
-# Clipboard manager
-exec_always --no-startup-id copyq
-
 # Screen layout
-exec $HOME/.screenlayout/myscrnlay.sh 
+exec_always --no-startup-id $HOME/.screenlayout/setscreen.sh 
 
-# Screenshot 
+# Screenshot Keybind
 bindsym $mod+Print exec flameshot gui -r | xclip -selection clipboard -t image/png
 
 # Wallpaper
-exec feh --bg-fill ~/Pictures/wallpapers/screen1-wp.* --bg-fill ~/Pictures/wallpapers/screen2-wp.*
+exec_always feh --bg-fill $HOME/Pictures/wallpapers/screen1-wp.* --bg-fill $HOME/Pictures/wallpapers/screen2-wp.*
+
+# XFCE4-power-manager
+exec xfce4-power-manager
