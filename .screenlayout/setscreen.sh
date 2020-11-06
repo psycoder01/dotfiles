@@ -1,11 +1,23 @@
-#!/bin/sh
+#!/usr/bin/sh
 
-# Checking the gpu being used
-GPU=$(glxinfo | grep "OpenGL renderer")
+gpu_info=`glxinfo | grep "OpenGL renderer"`
+count=`xrandr -q | grep ' connected' | wc -l`
 
-if [[ "$GPU" =~ "Intel" ]]
+if [ $count -lt 2 ]
 then
-    exec ~/.screenlayout/intel.sh
+	if [[ $gpu_info =~ "Intel" ]]
+	then
+		exec $HOME/.screenlayout/single_monitor_intel.sh
+	else
+		exec $HOME/.screenlayout/single_monitor_nvidia.sh
+	fi
 else
-    exec ~/.screenlayout/nvidia.sh
+	
+	if [[ $gpu_info =~ "Intel" ]]
+	then
+		exec $HOME/.screenlayout/multi_monitors_intel.sh
+	else
+		exec $HOME/.screenlayout/multi_monitors_nvidia.sh
+	fi
 fi
+
