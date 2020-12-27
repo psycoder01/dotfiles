@@ -14,16 +14,16 @@ set number relativenumber
 set nu rnu
 
 " Copy/paste to from clipboard
-vnoremap <leader>y "+y
-nnoremap <leader>p "+p
+vnoremap <C-c> "+y
+nnoremap <C-p> "+p
 
 " Some file commands
 " Selecting all text in a file
 nnoremap <C-A> ggVG
 " Saving a file
-map s :w <CR>
+map <C-s> :w <CR>
 " redo
-map r :redo <CR>
+map <C-y> :redo <CR>
 " Exiting buffer , error if changes not saved
 map xt :bd <CR>
 " Exiting buffer , no error if changes not saved
