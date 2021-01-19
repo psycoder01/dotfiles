@@ -1,0 +1,72 @@
+Jan 18 16:50 : update: added /Sunideu - Apurva Tamang (Official Video).mp3
+Jan 18 16:50 : update: added /Timi Ra Ma Lyrics Video Dixita Karki.mp3
+Jan 18 16:50 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:14 : exception: Stored playlists are disabled
+Jan 18 17:15 : exception: Stored playlists are disabled
+Jan 18 17:15 : exception: Stored playlists are disabled
+Jan 18 17:19 : exception: Stored playlists are disabled
+Jan 18 17:20 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:20 : exception: Stored playlists are disabled
+Jan 18 17:21 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 18 17:26 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:29 : exception: Stored playlists are disabled
+Jan 18 17:33 : exception: Stored playlists are disabled
+Jan 18 17:38 : exception: Stored playlists are disabled
+Jan 18 17:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:38 : exception: Stored playlists are disabled
+Jan 18 17:39 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+Jan 18 17:39 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:39 : exception: Stored playlists are disabled
+Jan 18 17:42 : exception: Failed to open '/home/psycoder01/.config/mpd/state': No such file or directory
+Jan 18 17:42 : exception: Stored playlists are disabled
+Jan 18 17:42 : exception: Stored playlists are disabled
+Jan 18 17:43 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:43 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+Jan 18 17:44 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:44 : exception: Stored playlists are disabled
+Jan 18 17:45 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:45 : exception: Stored playlists are disabled
+Jan 18 17:45 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 18 17:45 : exception: Stored playlists are disabled
+Jan 18 17:46 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 18 17:49 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 17:49 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 18 19:09 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 20:25 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 21:05 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 21:05 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 18 21:19 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 18 21:19 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 23:45 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 18 23:57 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 08:07 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:07 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:08 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 08:08 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:22 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+Jan 19 08:23 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:28 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:51 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:51 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+Jan 19 08:51 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 08:51 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:52 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 08:52 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 09:10 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 09:23 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 12:40 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 13:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 13:42 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 13:43 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 13:45 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+Jan 19 16:52 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 18:00 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 18:01 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 19:55 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 20:00 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 21:55 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 21:56 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 21:56 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 19 21:58 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jan 19 21:58 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 19 22:08 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
