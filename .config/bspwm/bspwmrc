@@ -24,3 +24,4 @@ picom -f &
 nm-applet &
 copyq &
 nitrogen --restore &
+redshift &
