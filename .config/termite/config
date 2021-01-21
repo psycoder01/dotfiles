@@ -43,12 +43,12 @@ cursor_blink = on
 [colors]
 # If both of these are unset, cursor falls back to the foreground color,
 # and cursor_foreground falls back to the background color.
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
+cursor = #d65d0e
+cursor_foreground = #1d2021
 
-#foreground = #dcdccc
+foreground = #EBDBB2
 #foreground_bold = #ffffff
-background = #212121
+background = #282828
 
 # 20% background transparency (requires a compositor)
 #background = rgba(63, 63, 63, 0.8)

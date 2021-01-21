@@ -20,8 +20,8 @@ bspc config gapless_monocle      true
 #bspc rule -a Screenkey manage=off
 
 $HOME/.config/polybar/launch.sh &
-picom -f &
+picom --config $HOME/.config/picom/picom.conf &
 nm-applet &
 copyq &
 nitrogen --restore &
-redshift &
+redshift -P &
