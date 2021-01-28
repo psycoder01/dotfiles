@@ -1,6 +1,6 @@
 # terminal emulator
 super + Return
-	termite
+    termite
 
 # program launcher
 super + @space
@@ -119,7 +119,7 @@ super + {Left,Down,Up,Right}
 ##### Custom keybinds ########
 
 super + w 
-	vivaldi-stable
+	firefox-developer-edition
 super + m
 	termite -e nnn
 super + Print
