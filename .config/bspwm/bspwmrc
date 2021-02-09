@@ -13,9 +13,12 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-bspc rule -a firefoxdeveloperedition desktop='I' follow=on
+bspc rule -a Vivaldi-stable desktop='I' follow=on
+bspc rule -a Thunar desktop='IV' follow=on
+bspc rule -a vlc desktop='VII' follow=on
 bspc rule -a discord desktop='VIII'
 bspc rule -a obs desktop='X' follow=on
+bspc rule -a ViberPC desktop='X' 
 
 bspc config external_rules_command "$HOME/.config/bspwm/scripts/custom-rules"
 

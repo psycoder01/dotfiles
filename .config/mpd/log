@@ -86,3 +86,6 @@ Jan 27 06:38 : exception: Failed to open mixer for 'default detected output': no
 Jan 27 06:46 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
 Jan 27 06:47 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
 Jan 27 06:49 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+Jan 31 08:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Jan 31 08:44 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+Jan 31 08:48 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
