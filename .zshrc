@@ -16,6 +16,7 @@ export ZSH="/home/psycoder01/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,7 +114,11 @@ export LANG=en_US.UTF-8
 bindkey '^ ' autosuggest-accept
 
 # some system function alias
-alias no='redshift -O 5000'
+alias x='clear'
+alias q='exit'
+
+# Bat theme for fzf syntax highlighting
+export BAT_THEME='gruvbox'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
