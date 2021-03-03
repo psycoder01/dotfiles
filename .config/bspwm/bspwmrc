@@ -2,10 +2,13 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
 
-bspc config window_gap		13
+bspc confis window_gap		13
 bspc config focus_follows_pointer false
+
+bspc config pointer_follows_monitor true
+#bspc config pointer_follows_focus true
+
 bspc config border_width 	1
 bspc config top_padding 25
 
@@ -13,7 +16,10 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-bspc rule -a Vivaldi-stable desktop='I' follow=on
+workspaces_multimonitor &
+
+bspc rule -a firefoxdeveloperedition desktop='I' follow=on 
+bspc rule -a code-oss desktop='II' follow=on
 bspc rule -a Thunar desktop='IV' follow=on
 bspc rule -a vlc desktop='VII' follow=on
 bspc rule -a discord desktop='VIII'
@@ -27,4 +33,5 @@ picom --experimental-backends --config $HOME/.config/picom/picom.conf &
 nm-applet &
 copyq &
 nitrogen --restore &
-redshift -P &
+
+$HOME/.config/bspwm/scripts/monitor.sh
