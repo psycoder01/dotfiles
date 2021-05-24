@@ -10,8 +10,8 @@ configuration {
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
-	show-icons: true;
-/*	terminal: "rofi-sensible-terminal";*/
+/*	show-icons: false;*/
+	terminal: "kitty";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
 /*	run-command: "{cmd}";*/
@@ -30,7 +30,7 @@ configuration {
 /*	sort: false;*/
 /*	sorting-method: "normal";*/
 /*	case-sensitive: false;*/
-/*	cycle: true;*/
+/*  cycle: true;*/
 /*	sidebar-mode: false;*/
 /*	eh: 1;*/
 /*	auto-select: false;*/
@@ -55,7 +55,7 @@ configuration {
 /*	window-format: "{w}    {c}   {t}";*/
 /*	click-to-exit: true;*/
 /*	show-match: true;*/
-	theme:"~/.config/rofi/themes/custom.rasi" ;
+    theme:"~/.config/rofi/themes/custom.rasi";
 /*	color-normal: ;*/
 /*	color-urgent: ;*/
 /*	color-active: ;*/

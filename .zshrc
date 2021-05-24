@@ -114,7 +114,7 @@ export LANG=en_US.UTF-8
 bindkey '^ ' autosuggest-accept
 
 # some system function alias
-alias x='clear'
+alias x='clear && $HOME/.config/scripts/panes'
 alias q='exit'
 
 # Bat theme for fzf syntax highlighting
@@ -122,3 +122,6 @@ export BAT_THEME='gruvbox'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+$HOME/.config/scripts/panes
+PROMPT_EOL_MARK=''

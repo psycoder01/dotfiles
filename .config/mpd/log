@@ -89,3 +89,20 @@ Jan 27 06:49 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
 Jan 31 08:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
 Jan 31 08:44 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
 Jan 31 08:48 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 07 09:24 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 07 09:24 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 23 07:35 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 23 07:35 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 23 07:36 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 23 07:36 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 23 07:36 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 23 07:39 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+May 23 07:43 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 23 07:45 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 23 07:45 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 23 07:52 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+May 23 07:52 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 23 07:57 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"
+May 23 07:57 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 23 07:59 : player: played "Sunideu - Apurva Tamang (Official Video).mp3"
+May 23 08:04 : player: played "Timi Ra Ma Lyrics Video Dixita Karki.mp3"

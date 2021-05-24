@@ -1,6 +1,6 @@
 # terminal emulator
 super + Return
-    termite
+    urxvt
 
 # program launcher
 super + d
@@ -59,7 +59,7 @@ super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {_,shift + }c
+super + {_,shift + }grave
 	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
@@ -67,7 +67,7 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
+super + {n,Tab}
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
@@ -78,9 +78,11 @@ super + {o,i}
 
 # focus or send to the given desktop
 #super + {_,shift + }{1-9,0}
-#	bspc {desktop -f,node -d} '^{1-9,10}'
+    #bspc {desktop -f,node -d} '^{1-9,10}'
+#super + {_,shift + }{1,2,3,4,5,6,7,8,9,0}
+    #bspc {desktop -f,node -d} '{I,II,III,IV,V,VI,VII,VIII,IX,X}'
 super + {_,shift + }{1,2,3,4,5,6,7,8,9,0}
-    bspc {desktop -f,node -d} '{I,II,III,IV,V,VI,VII,VIII,IX,X}'
+		bspc {desktop -f,node -d} '{1,2,3,4,5,6,7,8,9,0}'
 
 #
 # preselect
@@ -121,9 +123,9 @@ super + {Left,Down,Up,Right}
 ##### Custom keybinds ########
 
 super + w 
-	firefox-developer-edition
+	brave
 super + m
-	termite -e nnn
+	urxvt -e nnn
 super + Print
 	flameshot gui -r | xclip -selection clipboard -t image/png
 super + x
