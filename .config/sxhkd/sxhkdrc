@@ -125,7 +125,7 @@ super + {Left,Down,Up,Right}
 super + w 
 	brave
 super + m
-	urxvt -e nnn
+	urxvt -e ranger
 super + Print
 	flameshot gui -r | xclip -selection clipboard -t image/png
 super + x

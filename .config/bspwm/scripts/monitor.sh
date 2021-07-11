@@ -17,8 +17,8 @@ if [[ $countOfConnectedMonitors == 1 ]]; then
     bspc monitor $EXT_MONITOR --remove > /dev/null
 
 else
-    bspc monitor eDP1 -d 4 5 6 0
-    bspc monitor $EXT_MONITOR -d 1 2 3 7 8 9
+    bspc monitor eDP1 -d 1 4 5 6 0
+    bspc monitor $EXT_MONITOR -d 2 3 7 8 9
 		n_desktops=5
 
     for desktop in $(bspc query -D -m $EXT_MONITOR | sed "$n_desktops"q); do
