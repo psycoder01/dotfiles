@@ -77,7 +77,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+fancy-ctrl-z
 git
+yarn
 zsh-autosuggestions 
 zsh-syntax-highlighting
 )
@@ -123,5 +125,11 @@ export BAT_THEME='gruvbox'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# SSH-Agent socket
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 $HOME/.config/scripts/panes
 PROMPT_EOL_MARK=''
+
+export NNN_PLUG='v:preview-tabbed;p:preview-tui;i:imgview;n:nuke;'
+export NNN_FIFO='/tmp/nnn.fifo'

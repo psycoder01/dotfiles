@@ -31,7 +31,7 @@ bspc rule -a ViberPC desktop='0'
 bspc config external_rules_command "$HOME/.config/bspwm/scripts/custom-rules"
 
 $HOME/.config/polybar/launch.sh &
-picom --experimental-backends --config $HOME/.config/picom/picom.conf &
+picom --config $HOME/.config/picom/picom.conf &
 nm-applet &
 copyq &
 nitrogen --restore &
