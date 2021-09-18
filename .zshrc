@@ -116,8 +116,8 @@ export LANG=en_US.UTF-8
 bindkey '^ ' autosuggest-accept
 
 # some system function alias
-alias x='clear && $HOME/.config/scripts/panes'
-alias q='exit'
+alias nvidiaOff="sudo tee /proc/acpi/bbswitch <<< OFF"
+alias nvidiaOn="sudo tee /proc/acpi/bbswitch <<< ON"
 
 # Bat theme for fzf syntax highlighting
 export BAT_THEME='gruvbox'
@@ -128,7 +128,7 @@ export BAT_THEME='gruvbox'
 # SSH-Agent socket
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
-$HOME/.config/scripts/panes
+# $HOME/.config/scripts/panes
 PROMPT_EOL_MARK=''
 
 export NNN_PLUG='v:preview-tabbed;p:preview-tui;i:imgview;n:nuke;'
