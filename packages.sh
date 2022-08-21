@@ -1,9 +1,9 @@
 #!/bin/sh
 
-audio="alsa-utils base-devel pavucontrol pulseaudio"
+audio="alsa-utils base-devel pavucontrol pipewire pipewire-jack pipewire-als pipewire-pulse"
 browsers="firefox-developer-edition chromium"
 dev="intellij-idea-community-edition code nodejs npm yarn"
-drivers="arandr blueman bspwm copyq docker dunst feh flameshot fuse git gvfs lxappearance networkmanager network-manager-applet nitrogen noto-fonts-cjk ntfs-3g papirus-icon-theme picom polybar redshift rofi sxhkd the_silver_searcher thunar-volman tlp udisks2 unzip zsh" 
+drivers="arandr blueman bspwm copyq docker dunst feh flameshot fuse git gvfs lxappearance networkmanager network-manager-applet nitrogen noto-fonts-cjk ntfs-3g papirus-icon-theme picom polybar redshift rofi sxhkd the_silver_searcher thunar-volman tlp udisks2 unzip w3m zsh" 
 filemanager="nnn thunar ranger"
 image="gimp sxiv"
 terminalEmulators="alacritty rxvt-unicode"
@@ -20,7 +20,7 @@ cd yay
 makepkg -si
 
 ## AUR packages
-yayPackages="discord postman-bin matcha-gtk-theme teams spotify"
+yayPackages="discord i3lock-color postman-bin matcha-gtk-theme teams spotify"
 yay -S $yayPackages
 
 ## Enable / Start units
