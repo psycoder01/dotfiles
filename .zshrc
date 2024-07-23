@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/psycoder01/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -131,5 +131,17 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 # $HOME/.config/scripts/panes
 PROMPT_EOL_MARK=''
 
-export NNN_PLUG='v:preview-tabbed;p:preview-tui;i:imgview;n:nuke;'
-export NNN_FIFO='/tmp/nnn.fifo'
+# Source NNN variables
+source ~/.config/nnn/config.sh
+
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias mill="$HOME/.local/bin/mill"
+alias lsn="nnn -deA"
+
+[ -f "/home/aakashwy/.ghcup/env" ] && . "/home/aakashwy/.ghcup/env" # ghcup-env
