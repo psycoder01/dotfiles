@@ -123,9 +123,11 @@ super + {Left,Down,Up,Right}
 ##### Custom keybinds ########
 
 super + w 
-	brave
+	firefox -P psycoder01
+super + shift + w 
+	firefox -P aakashwy
 super + m
-	urxvt -e ranger
+	urxvt -e nnn -deA
 super + Print
 	flameshot gui -r | xclip -selection clipboard -t image/png
 super + x

@@ -144,4 +144,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias mill="$HOME/.local/bin/mill"
 alias lsn="nnn -deA"
 
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
+
 [ -f "/home/aakashwy/.ghcup/env" ] && . "/home/aakashwy/.ghcup/env" # ghcup-env
