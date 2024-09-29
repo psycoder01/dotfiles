@@ -147,3 +147,5 @@ alias lsn="nnn -deA"
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 [ -f "/home/aakashwy/.ghcup/env" ] && . "/home/aakashwy/.ghcup/env" # ghcup-env
+
+~/.config/scripts/panes

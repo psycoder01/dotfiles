@@ -28,11 +28,11 @@
 *color15: #ebdbb2
 
 !! URxvt Appearance
-URxvt.font: xft:IosevkaNerdFont:regular:size=10:antialiasing=true, xft:HackNerdFontMono:regular:size=10:antialiasing=true
+URxvt.font: xft:HackNerdFontMono:regular:size=10:antialiasing=true, xft:IosevkaNerdFont:regular:size=10:antialiasing=true
 URxvt.boldFont: xft:HackNerdFontMono:bold:size=10:antialiasing=true
 URxvt.italicFont: xft:HackNerdFontMono:italic:size=10:antialiasing=true
 URxvt.boldItalicfont: xft:HackNerdFontMono:bold:size=10:antialiasing=true
-URxvt.letterSpace: 1
+URxvt.letterSpace: -1
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
 URxvt.internalBorder: 0
@@ -44,6 +44,7 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 24
 URxvt.iso14755: false
+URxvt.dpi: 96
 /* URxvt.transparent: true
 URxvt.shading: 30
 URxvt.blurRadius: 10 */
