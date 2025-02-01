@@ -1,2 +1,5 @@
 [font.normal]
-family = "FiraCode Nerd Font Mono"
+family = "Hack Nerd Font Mono"
+
+[font]
+size = 9
