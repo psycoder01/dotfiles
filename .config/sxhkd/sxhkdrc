@@ -1,6 +1,6 @@
 # terminal emulator
 super + Return
-    urxvt
+    alacritty
 
 # program launcher
 super + d
@@ -123,11 +123,11 @@ super + {Left,Down,Up,Right}
 ##### Custom keybinds ########
 
 super + w 
-	firefox -P psycoder01
+	brave --profile-directory=Default
 super + shift + w 
-	firefox -P aakashwy
+	brave --profile-directory="Profile 1"
 super + m
-	urxvt -e nnn -deA
+	alacritty -e nnn
 super + Print
 	flameshot gui -r | xclip -selection clipboard -t image/png
 super + x
@@ -142,11 +142,11 @@ XF86MonBrightnessDown
 
 # Raises volume
 XF86AudioRaiseVolume
-    amixer set Master 10%+
+    amixer set Master 5%+
 
 # Lowers volume
 XF86AudioLowerVolume
-    amixer set Master 10%-
+    amixer set Master 5%-
 
 # Mutes
 XF86AudioMute
