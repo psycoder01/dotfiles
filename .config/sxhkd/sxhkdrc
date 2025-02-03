@@ -127,7 +127,7 @@ super + w
 super + shift + w 
 	brave --profile-directory="Profile 1"
 super + m
-	alacritty -e nnn
+	alacritty -e nnn -d
 super + Print
 	flameshot gui -r | xclip -selection clipboard -t image/png
 super + x
